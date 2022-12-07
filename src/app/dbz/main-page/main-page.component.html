@@ -10,9 +10,12 @@
         
     </div>
 
-<div class="col">
-
-    
+    <div class="col">
+        <app-agregar [nuevo]="nuevo"
+        (onNuevoPersonaje)="agregarNuevoPersonaje($event)"
+        ></app-agregar>
+    </div>
    
 
 </div>
+
